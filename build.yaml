@@ -15,7 +15,9 @@
 include:
   - board: nice_nano//zmk
     shield: "eternal_keypad"
+    artifact-name: eternal_keypad-nice_nano
   - board: nice_nano//zmk
     shield: "eternal_keypad"
     cmake-args: "-DKEYMAP_FILE=${GITHUB_WORKSPACE}/config/boards/shields/eternal_keypad/eternal_keypad_lefty.keymap"
     keymap-name: "lefty"
+    artifact-name: eternal_keypad-nice_nano-lefty
