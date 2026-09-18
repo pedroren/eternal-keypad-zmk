@@ -4,13 +4,14 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <dt-bindings/zmk/matrix_transform.h>
+//#include <dt-bindings/zmk/matrix_transform.h>
+#include "eternal_keyboard-layout.dtsi"
 
 / {
-  chosen {
-    zmk,kscan = &kscan0;
-    zmk,matrix_transform = &default_transform;
-  };
+  // chosen {
+  //   zmk,kscan = &kscan0;
+  //   zmk,matrix_transform = &default_transform;
+  // };
 
   kscan0: kscan {
     compatible = "zmk,kscan-gpio-matrix";
