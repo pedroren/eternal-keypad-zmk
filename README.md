@@ -4,7 +4,8 @@ Enabling ZMK Studio and Underglow.
 
 ## References
 - Keypad hardware repository: [duckyb/eternal-keypad](https://github.com/duckyb/eternal-keypad)
-- Original ZMK Firmware found: [halcyonCorsair/eternal_keypad](https://github.com/halcyonCorsair/zmk-config/tree/eternal_keypad)
+- Original ZMK Firmware: [zmk/eternal_keypad](https://github.com/zmkfirmware/zmk/tree/main/app/boards/shields/eternal_keypad)
+- Alternative ZMK Firmware: [halcyonCorsair/eternal_keypad](https://github.com/halcyonCorsair/zmk-config/tree/eternal_keypad)
 
 ## Tools used
 - [ZMK physical layouts converter](https://zmk-physical-layout-converter.streamlit.app/) for creating the physical layout
