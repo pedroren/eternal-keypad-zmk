@@ -33,7 +33,7 @@
                     &trans       &trans       &kp UP     &trans    &trans  &trans       &trans
         &bt BT_CLR  &trans       &kp LEFT     &kp DOWN   &kp RIGHT &trans  &trans       &trans
         &reset      &trans       &trans       &trans     &trans    &trans  &trans       &trans
-        &bootloader &trans       &trans       &trans               &trans               &trans
+        &bootloader &trans       &trans       &trans           &studio_unlock           &trans
       >;
     };
 

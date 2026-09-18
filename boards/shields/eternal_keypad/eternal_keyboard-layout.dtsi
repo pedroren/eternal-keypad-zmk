@@ -6,7 +6,7 @@
         display-name = "Default Layout";
 
         kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
+        transform = <&matrix_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100  100    0       0     0     0>
@@ -52,8 +52,8 @@
         compatible = "zmk,physical-layout";
         display-name = "Lefty Layout";
 
-        kscan = <&kscan1>;
-        transform = <&matrix_transform1>;
+        kscan = <&kscan0>;
+        transform = <&lefty_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>

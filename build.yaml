@@ -16,10 +16,12 @@ include:
   - board: nice_nano//zmk
     shield: "eternal_keypad"
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    snippet: studio-rpc-usb-uart
     artifact-name: eternal_keypad-nice_nano
   - board: nice_nano//zmk
     shield: "eternal_keypad_lefty"
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    snippet: studio-rpc-usb-uart
     #cmake-args: "-DKEYMAP_FILE=eternal_keypad_lefty.keymap"
     #keymap-name: "lefty"
     artifact-name: eternal_keypad-nice_nano-lefty
