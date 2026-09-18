@@ -7,6 +7,4 @@ requires: [pro_micro]
 features:
   - keys
   - studio
-siblings:
-  - eternal_keypad
-  - eternal_keypad_lefty  
+  - underglow
