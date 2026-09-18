@@ -3,7 +3,7 @@
 / {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
-        display-name = "default_transform";
+        display-name = "Default Layout";
 
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
@@ -50,7 +50,7 @@
 
     physical_layout1: physical_layout_1 {
         compatible = "zmk,physical-layout";
-        display-name = "lefty_transform";
+        display-name = "Lefty Layout";
 
         kscan = <&kscan1>;
         transform = <&matrix_transform1>;
