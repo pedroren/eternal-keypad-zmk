@@ -1,7 +1,7 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_ETERNAL_KEYPAD || SHIELD_ETERNAL_KEYPAD_LEFTY
+if SHIELD_ETERNAL_KEYPAD_CUSTOM || SHIELD_ETERNAL_KEYPAD_LEFTY_CUSTOM
 
 config ZMK_KEYBOARD_NAME
 	default "Eternal Keypad"
