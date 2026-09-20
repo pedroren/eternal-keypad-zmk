@@ -7,6 +7,9 @@ config ZMK_KEYBOARD_NAME
 	default "Eternal Keypad"
 
 config ZMK_STUDIO
-    default n
-		
+    default y
+
+config RGB_UNDERGLOW    
+	default y
+    	
 endif
