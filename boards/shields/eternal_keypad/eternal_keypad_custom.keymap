@@ -30,11 +30,11 @@
 
     arrow_layer {
       bindings = <
-                    &bt BT_SEL 0 &bt BT_SEL 1 &trans     &trans    &trans  &out OUT_USB &out OUT_BLE
-                    &trans       &trans       &kp UP     &trans    &trans  &trans       &trans
-        &bt BT_CLR  &trans       &kp LEFT     &kp DOWN   &kp RIGHT &trans  &trans       &trans
-        &sys_reset  &trans       &trans       &trans     &trans    &trans  &trans       &rgb_ug RGB_ON
-        &bootloader &trans       &trans       &trans           &studio_unlock           &rgb_ug RGB_OFF
+                    &bt BT_SEL 0     &bt BT_SEL 1     &trans     &trans         &trans  &out OUT_USB &out OUT_BLE
+                    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp UP     &rgb_ug RGB_HUI   &trans  &trans       &trans
+        &bt BT_CLR  &rgb_ug RGB_BRD  &kp LEFT         &kp DOWN   &kp RIGHT      &trans  &trans       &trans
+        &sys_reset  &rgb_ug RGB_BRI  &trans           &trans     &trans         &trans  &trans       &rgb_ug RGB_ON
+        &bootloader &trans           &trans           &trans           &studio_unlock           &rgb_ug RGB_OFF
       >;
     };
 
